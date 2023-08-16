@@ -1,0 +1,16 @@
+*{box-sizing:border-box;}
+h1,p{margin:5px;text-align:center;}
+body{color:#f5f6f7;background-color:#7B68EE;width:100%;
+height:100vh;font-Family:Tahoma;font-size:16px;padding:5px;}
+form{background-color:#1b1b32;width:90vw;
+margin:5px auto;padding:7px;}
+button,textarea,select,label{width:95%;display:block;
+margin:2% auto;}
+input.name,input.email,input.number  {display:block;
+width:95%;margin-bottom:10px}
+#dropdown{margin-left:0;}
+#Q1,#Q2,#Q3 {margin-left:-10px;}
+#comment,#Improvement,#favourite {margin-bottom:-5px;margin-top:10px;} 
+textarea{height:10%;}
+#recommendation{margin-left:20px;display:block;margin-bottom:-5;margin-top:10px;}
+button {background-color:#3cB371;margin-bottom:5px;}

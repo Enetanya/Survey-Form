@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css" />
+ </head>
+ <body>
+   <h1 id="title">FreeCodeCamp Survey Form
+</h1> 
+<p id="description" class="intro">Thank you for taking the time to help us improve the platform
+  </p>
+<form id="survey-form">
+  
+  <div type="division1" >
+        <label for="name"id="name-label" type="text" >Name<input id="name"type="text" required  value="name"class="name"placeholder="Enter your name"/></label>
+        <label for="email"id="email-label" type="text" >Email<input id="email" type="email" required placeholder="Enter your Email" value="email"class="email " />
+    </label>
+    <label for="number"id="number-label" type="text">Age (optional) <input id="number" type="number" min="13"
+    max="100" placeholder="Age" value="number"class="number" />
+    </label>
+   <label for="dropdown" > Which option best describes your current role?  
+     <select id="dropdown">
+       <option value="" > (Select your current role)    </option>  
+<option value="1" > Junior Staff </option>
+<option value="2" > Lead Staff</option> 
+<option value="3" > Manager 
+  </option> 
+<option value="4" > Full-time </option> 
+<option value="5"> Part-time </option>
+      </select>
+    </label>
+    </div>
+    
+    <div class="division>
+<label class="rec" id="recommendation">Would you recommend Freecodecamp to a friend?</label> 
+<label for="Q1"><input type="Radio" id="Q1"value="choice1"name="one" > Definitely </label> 
+    <label for="Q2"> <input id="Q2" type="Radio" value="choice2" name="one"> Maybe </label> 
+    <label for="Q3" > 
+      <input type="radio" id="Q3"value="choice3"name="one" > Not sure</label>
+      </div>
+
+      <div class="division3" > 
+    <label id="favourite" > What is your favourite feature of  Freecodecamp?
+      </label>  
+    <select id="dropdowns" ><option 
+    value="" > (Choose favourite feature)</option> <option value="6" > Fast 
+</option>
+  <option value="7" > Convenient 
+    </option> 
+  <option value="8" > Self-paced 
+    </option> 
+  <option value="9" >
+    Simple
+    </option> 
+  <option value="10">Interactive 
+</option>
+   </select>
+   </div>
+
+   <div class="division4" >
+  <label id="improvement ">
+    What would you like to see improved? (check all that apply)
+    </label>
+<label for="11">
+  <input type="checkbox"id="11"value="checkbox1" > 
+  Front-end projects  
+  </label>
+      <label for="12">
+        <input type="checkbox"id="12" value="checkbox2"> 
+        Back-end Projects   
+        </label>
+        <label for="13">    <input
+type="checkbox"id="13"value="checkbox3" > Data Visualization 
+        </label>
+          <label for="14"> <input type="checkbox" id="14"value="checkbox4"> Others  </label>
+          </div>
+
+          <label id="comment">Any comments or suggestions?</label>
+<textarea type="text" id=textarea placeholder="Enter your comments here" value="textarea"></textarea>
+           <button type="summit"id="submit"> Submit 
+           </button>
+        
+
+      
+  
+
+</form>
+</body>
+</html>
